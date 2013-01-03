@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/ios/!svn/ver/26/HZFarmNew/HZFarm/Sheds/Delegate
+END
+PoultryDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Sheds/Delegate/PoultryDelegate.h
+END
+AdderDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Sheds/Delegate/AdderDelegate.h
+END
+StateDialogDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Sheds/Delegate/StateDialogDelegate.h
+END
+CallForSthDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Sheds/Delegate/CallForSthDelegate.h
+END
+ShedsModelServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Sheds/Delegate/ShedsModelServer.h
+END
+WarningDialogDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Sheds/Delegate/WarningDialogDelegate.h
+END
+ShedsDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/ios/!svn/ver/26/HZFarmNew/HZFarm/Sheds/Delegate/ShedsDelegate.h
+END
+TimingDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Sheds/Delegate/TimingDelegate.h
+END
+PoutryTargetDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Sheds/Delegate/PoutryTargetDelegate.h
+END
+ProgressBarDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Sheds/Delegate/ProgressBarDelegate.h
+END
+ClockDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Sheds/Delegate/ClockDelegate.h
+END
+FactoryAnimDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Sheds/Delegate/FactoryAnimDelegate.h
+END
+MedicineSelectDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Sheds/Delegate/MedicineSelectDelegate.h
+END
+ShedsViewServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/ios/!svn/ver/19/HZFarmNew/HZFarm/Sheds/Delegate/ShedsViewServer.h
+END

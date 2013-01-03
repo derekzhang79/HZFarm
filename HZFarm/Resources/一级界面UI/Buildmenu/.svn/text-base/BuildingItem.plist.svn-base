@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>建造状态</key>
+	<string>建造状态.png</string>
+	<key>小风车</key>
+	<string>小风车.png</string>
+	<key>看守者小屋</key>
+	<string>看守者小屋.png</string>
+	<key>灵石</key>
+	<string>灵石.png</string>
+	<key>柳树</key>
+	<string>柳树.png</string>
+	<key>榕树</key>
+	<string>榕树.png</string>
+	<key>桃树</key>
+	<string>桃树.png</string>
+	<key>蓄水池</key>
+	<string>蓄水池.png</string>
+	<key>椰子树</key>
+	<string>椰子树.png</string>
+	<key>竹丛</key>
+	<string>竹丛.png</string>
+	<key>棕榈树</key>
+	<string>棕榈树.png</string>
+	<key>金花木</key>
+	<string>金花木.png</string>
+	<key>小草堆</key>
+	<string>小草堆.png</string>
+</dict>
+</plist>

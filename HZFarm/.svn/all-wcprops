@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/ios/!svn/ver/44/HZFarmNew/HZFarm
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/main.m
+END
+AudioController.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/AudioController.m
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/ios/!svn/ver/25/HZFarmNew/HZFarm/AppDelegate.h
+END
+SceneManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/ios/!svn/ver/43/HZFarmNew/HZFarm/SceneManager.m
+END
+HelloWorldLayer.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/HelloWorldLayer.m
+END
+GameConfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/GameConfig.h
+END
+Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Prefix.pch
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/ios/!svn/ver/26/HZFarmNew/HZFarm/AppDelegate.m
+END
+RootViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/RootViewController.h
+END
+AudioController.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/AudioController.h
+END
+RootViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/RootViewController.m
+END
+HelloWorldLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/HelloWorldLayer.h
+END
+SceneManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/SceneManager.h
+END

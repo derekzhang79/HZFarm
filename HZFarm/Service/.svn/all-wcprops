@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/ios/!svn/ver/44/HZFarmNew/HZFarm/Service
+END
+DAItemTypeRelService.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Service/DAItemTypeRelService.h
+END
+DAItemService.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Service/DAItemService.m
+END
+DAWareHouseService.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/ios/!svn/ver/23/HZFarmNew/HZFarm/Service/DAWareHouseService.m
+END
+DAItemTypeRelService.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/ios/!svn/ver/23/HZFarmNew/HZFarm/Service/DAItemTypeRelService.m
+END
+DAShopService.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Service/DAShopService.h
+END
+DAHenHouseMapService.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Service/DAHenHouseMapService.h
+END
+DAShopService.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Service/DAShopService.m
+END
+DAHenHouseMapService.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Service/DAHenHouseMapService.m
+END
+DACatchFileService.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Service/DACatchFileService.h
+END
+DAWorldMapService.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Service/DAWorldMapService.h
+END
+DAPlayerParseXml.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Service/DAPlayerParseXml.h
+END
+DAPFactoryService.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Service/DAPFactoryService.h
+END
+DACatchFileService.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Service/DACatchFileService.m
+END
+DAItemParseXml.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Service/DAItemParseXml.h
+END
+DAWorldMapService.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/ios/!svn/ver/44/HZFarmNew/HZFarm/Service/DAWorldMapService.m
+END
+DAHenHousesDataService.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Service/DAHenHousesDataService.h
+END
+DAPlayerParseXml.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Service/DAPlayerParseXml.m
+END
+DAPFactoryService.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Service/DAPFactoryService.m
+END
+DAPlayerService.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Service/DAPlayerService.h
+END
+DAItemService.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Service/DAItemService.h
+END
+DAItemParseXml.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Service/DAItemParseXml.m
+END
+DAHenHousesDataService.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Service/DAHenHousesDataService.m
+END
+DAPlayerService.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/ios/!svn/ver/42/HZFarmNew/HZFarm/Service/DAPlayerService.m
+END
+DAWareHouseService.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Service/DAWareHouseService.h
+END

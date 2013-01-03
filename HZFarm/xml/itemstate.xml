@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Table tableName="itemstate">
+    <SqlScript>CREATE TABLE IF NOT EXISTS itemstate (sysName TEXT,grow INTEGER,lay INTEGER)</SqlScript>
+    <SqlScript>INSERT INTO itemstate (sysName,grow,lay) VALUES (&quot;正常&quot;,&quot;1&quot;,&quot;1&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemstate (sysName,grow,lay) VALUES (&quot;饥饿&quot;,&quot;0&quot;,&quot;0&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemstate (sysName,grow,lay) VALUES (&quot;口渴&quot;,&quot;0&quot;,&quot;0&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemstate (sysName,grow,lay) VALUES (&quot;疾病&quot;,&quot;1&quot;,&quot;0&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemstate (sysName,grow,lay) VALUES (&quot;收蛋&quot;,&quot;1&quot;,&quot;0&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemstate (sysName,grow,lay) VALUES (&quot;成熟&quot;,&quot;0&quot;,&quot;0&quot;)</SqlScript>
+</Table>

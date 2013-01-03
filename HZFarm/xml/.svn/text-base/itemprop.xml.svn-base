@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Table tableName="itemprop">
+    <SqlScript>CREATE TABLE IF NOT EXISTS itemprop (sysName TEXT,disName TEXT,canbuy INTEGER,bprice INTEGER,cansell INTEGER,sprice INTEGER,imagepath TEXT)</SqlScript>
+    <SqlScript>INSERT INTO itemprop (sysName,disName,canbuy,bprice,cansell,sprice,imagepath) VALUES (&quot;二级鸡舍升级证明&quot;,&quot;允许将鸡舍升级到2级&quot;,&quot;1&quot;,&quot;5000&quot;,&quot;0&quot;,&quot;0&quot;,&quot;Henhouse2.png&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemprop (sysName,disName,canbuy,bprice,cansell,sprice,imagepath) VALUES (&quot;三级鸡舍升级证明&quot;,&quot;允许将鸡舍升级到3级&quot;,&quot;1&quot;,&quot;7500&quot;,&quot;0&quot;,&quot;0&quot;,&quot;Henhouse3.png&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemprop (sysName,disName,canbuy,bprice,cansell,sprice,imagepath) VALUES (&quot;四级鸡舍升级证明&quot;,&quot;允许将鸡舍升级到4级&quot;,&quot;1&quot;,&quot;10000&quot;,&quot;0&quot;,&quot;0&quot;,&quot;Henhouse4.png&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemprop (sysName,disName,canbuy,bprice,cansell,sprice,imagepath) VALUES (&quot;五级鸡舍升级证明&quot;,&quot;允许将鸡舍升级到5级&quot;,&quot;1&quot;,&quot;12500&quot;,&quot;0&quot;,&quot;0&quot;,&quot;Henhouse5.png&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemprop (sysName,disName,canbuy,bprice,cansell,sprice,imagepath) VALUES (&quot;二级加工厂升级证明&quot;,&quot;允许将加工厂升级到2级&quot;,&quot;1&quot;,&quot;4000&quot;,&quot;0&quot;,&quot;0&quot;,&quot;Factory2.png&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemprop (sysName,disName,canbuy,bprice,cansell,sprice,imagepath) VALUES (&quot;三级加工厂升级证明&quot;,&quot;允许将加工厂升级到3级&quot;,&quot;1&quot;,&quot;8000&quot;,&quot;0&quot;,&quot;0&quot;,&quot;Factory3.png&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemprop (sysName,disName,canbuy,bprice,cansell,sprice,imagepath) VALUES (&quot;四级加工厂升级证明&quot;,&quot;允许将加工厂升级到4级&quot;,&quot;1&quot;,&quot;12000&quot;,&quot;0&quot;,&quot;0&quot;,&quot;Factory4.png&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemprop (sysName,disName,canbuy,bprice,cansell,sprice,imagepath) VALUES (&quot;五级加工厂升级证明&quot;,&quot;允许将加工厂升级到5级&quot;,&quot;1&quot;,&quot;16000&quot;,&quot;0&quot;,&quot;0&quot;,&quot;Factory5.png&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemprop (sysName,disName,canbuy,bprice,cansell,sprice,imagepath) VALUES (&quot;二级科研楼升级证明&quot;,&quot;允许将科研楼升级到2级&quot;,&quot;1&quot;,&quot;5000&quot;,&quot;0&quot;,&quot;0&quot;,&quot;Science2.png&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemprop (sysName,disName,canbuy,bprice,cansell,sprice,imagepath) VALUES (&quot;三级科研楼升级证明&quot;,&quot;允许将科研楼升级到3级&quot;,&quot;1&quot;,&quot;10000&quot;,&quot;0&quot;,&quot;0&quot;,&quot;Science3.png&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemprop (sysName,disName,canbuy,bprice,cansell,sprice,imagepath) VALUES (&quot;四级科研楼升级证明&quot;,&quot;允许将科研楼升级到4级&quot;,&quot;1&quot;,&quot;15000&quot;,&quot;0&quot;,&quot;0&quot;,&quot;Science4.png&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemprop (sysName,disName,canbuy,bprice,cansell,sprice,imagepath) VALUES (&quot;五级科研楼升级证明&quot;,&quot;允许将科研楼升级到5级&quot;,&quot;1&quot;,&quot;20000&quot;,&quot;0&quot;,&quot;0&quot;,&quot;Science5.png&quot;)</SqlScript>
+</Table>

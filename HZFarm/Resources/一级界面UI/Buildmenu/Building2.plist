@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>鸡舍</key>
+	<string>鸡舍1.png</string>
+	<key>研究所</key>
+	<string>研究所1.png</string>
+	<key>食品加工厂</key>
+	<string>食品加工厂1.png</string>
+</dict>
+</plist>

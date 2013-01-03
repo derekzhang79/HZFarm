@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Table tableName="itemproduct">
+    <SqlScript>CREATE TABLE IF NOT EXISTS itemproduct (sysName TEXT PRIMARY KEY,disName TEXT,cansell INTEGER,price INTEGER,image TEXT,exp INTEGER)</SqlScript>
+    <SqlScript>INSERT INTO itemproduct (sysName,disName,cansell,price,image,exp) VALUES (&quot;鸡蛋&quot;,&quot;鸡蛋&quot;,&quot;1&quot;,&quot;1&quot;,&quot;egg1.png&quot;,&quot;1&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemproduct (sysName,disName,cansell,price,image,exp) VALUES (&quot;野鸡蛋&quot;,&quot;野鸡蛋&quot;,&quot;1&quot;,&quot;2&quot;,&quot;egg2.png&quot;,&quot;1&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemproduct (sysName,disName,cansell,price,image,exp) VALUES (&quot;火鸡蛋&quot;,&quot;火鸡蛋&quot;,&quot;1&quot;,&quot;4&quot;,&quot;egg3.png&quot;,&quot;5&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemproduct (sysName,disName,cansell,price,image,exp) VALUES (&quot;珍珠鸡蛋&quot;,&quot;珍珠鸡蛋&quot;,&quot;1&quot;,&quot;1&quot;,&quot;egg4.png&quot;,&quot;2&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemproduct (sysName,disName,cansell,price,image,exp) VALUES (&quot;贵妃鸡蛋&quot;,&quot;贵妃鸡蛋&quot;,&quot;1&quot;,&quot;5&quot;,&quot;egg5.png&quot;,&quot;8&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemproduct (sysName,disName,cansell,price,image,exp) VALUES (&quot;天鹅蛋&quot;,&quot;天鹅蛋&quot;,&quot;1&quot;,&quot;6&quot;,&quot;egg6.png&quot;,&quot;10&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemproduct (sysName,disName,cansell,price,image,exp) VALUES (&quot;鸵鸟蛋&quot;,&quot;鸵鸟蛋&quot;,&quot;1&quot;,&quot;6&quot;,&quot;egg7.png&quot;,&quot;16&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemproduct (sysName,disName,cansell,price,image,exp) VALUES (&quot;孔雀蛋&quot;,&quot;孔雀蛋&quot;,&quot;1&quot;,&quot;10&quot;,&quot;egg8.png&quot;,&quot;40&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemproduct (sysName,disName,cansell,price,image,exp) VALUES (&quot;水煮蛋&quot;,&quot;水煮蛋&quot;,&quot;1&quot;,&quot;2&quot;,&quot;鸡蛋.png&quot;,&quot;-1&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemproduct (sysName,disName,cansell,price,image,exp) VALUES (&quot;茶叶蛋&quot;,&quot;茶叶蛋&quot;,&quot;1&quot;,&quot;3&quot;,&quot;茶叶蛋.png&quot;,&quot;-1&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemproduct (sysName,disName,cansell,price,image,exp) VALUES (&quot;松花蛋&quot;,&quot;松花蛋&quot;,&quot;1&quot;,&quot;4&quot;,&quot;松花蛋.png&quot;,&quot;-1&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemproduct (sysName,disName,cansell,price,image,exp) VALUES (&quot;饼干&quot;,&quot;饼干&quot;,&quot;1&quot;,&quot;5&quot;,&quot;饼干.png&quot;,&quot;-1&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemproduct (sysName,disName,cansell,price,image,exp) VALUES (&quot;面包&quot;,&quot;面包&quot;,&quot;1&quot;,&quot;8&quot;,&quot;面包.png&quot;,&quot;-1&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemproduct (sysName,disName,cansell,price,image,exp) VALUES (&quot;鸡蛋面&quot;,&quot;鸡蛋面&quot;,&quot;1&quot;,&quot;11&quot;,&quot;鸡蛋面.png&quot;,&quot;-1&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemproduct (sysName,disName,cansell,price,image,exp) VALUES (&quot;蛋挞&quot;,&quot;蛋挞&quot;,&quot;1&quot;,&quot;12&quot;,&quot;蛋挞.png&quot;,&quot;-1&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemproduct (sysName,disName,cansell,price,image,exp) VALUES (&quot;蛋卷&quot;,&quot;蛋卷&quot;,&quot;1&quot;,&quot;12&quot;,&quot;蛋卷.png&quot;,&quot;-1&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemproduct (sysName,disName,cansell,price,image,exp) VALUES (&quot;蛋黄酱&quot;,&quot;蛋黄酱&quot;,&quot;1&quot;,&quot;14&quot;,&quot;蛋黄酱.png&quot;,&quot;-1&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemproduct (sysName,disName,cansell,price,image,exp) VALUES (&quot;蛋白粉&quot;,&quot;蛋白粉&quot;,&quot;1&quot;,&quot;14&quot;,&quot;蛋白粉.png&quot;,&quot;-1&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemproduct (sysName,disName,cansell,price,image,exp) VALUES (&quot;奶油蛋糕&quot;,&quot;奶油蛋糕&quot;,&quot;1&quot;,&quot;16&quot;,&quot;奶油蛋糕.png&quot;,&quot;-1&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemproduct (sysName,disName,cansell,price,image,exp) VALUES (&quot;草莓蛋糕&quot;,&quot;草莓蛋糕&quot;,&quot;1&quot;,&quot;18&quot;,&quot;草莓蛋糕.png&quot;,&quot;-1&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemproduct (sysName,disName,cansell,price,image,exp) VALUES (&quot;巧克力蛋糕&quot;,&quot;巧克力蛋糕&quot;,&quot;1&quot;,&quot;18&quot;,&quot;巧克力蛋糕.png&quot;,&quot;-1&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemproduct (sysName,disName,cansell,price,image,exp) VALUES (&quot;香草蛋糕&quot;,&quot;香草蛋糕&quot;,&quot;1&quot;,&quot;20&quot;,&quot;香草蛋糕.png&quot;,&quot;-1&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemproduct (sysName,disName,cansell,price,image,exp) VALUES (&quot;芝士蛋糕&quot;,&quot;芝士蛋糕&quot;,&quot;1&quot;,&quot;20&quot;,&quot;芝士蛋糕.png&quot;,&quot;-1&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemproduct (sysName,disName,cansell,price,image,exp) VALUES (&quot;黄金蛋&quot;,&quot;黄金蛋&quot;,&quot;1&quot;,&quot;200&quot;,&quot;金蛋.png&quot;,&quot;-1&quot;)</SqlScript>
+</Table>

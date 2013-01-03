@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Table tableName="itemshop">
+    <SqlScript>CREATE TABLE IF NOT EXISTS itemshop (sysName TEXT,itemtype TEXT)</SqlScript>
+    <SqlScript>INSERT INTO itemshop (sysName,itemtype) VALUES (&quot;5000金币&quot;,&quot;特殊类&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemshop (sysName,itemtype) VALUES (&quot;10000金币&quot;,&quot;特殊类&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemshop (sysName,itemtype) VALUES (&quot;20000金币&quot;,&quot;特殊类&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemshop (sysName,itemtype) VALUES (&quot;50000金币&quot;,&quot;特殊类&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemshop (sysName,itemtype) VALUES (&quot;50宝石&quot;,&quot;特殊类&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemshop (sysName,itemtype) VALUES (&quot;100宝石&quot;,&quot;特殊类&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemshop (sysName,itemtype) VALUES (&quot;200宝石&quot;,&quot;特殊类&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemshop (sysName,itemtype) VALUES (&quot;500宝石&quot;,&quot;特殊类&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemshop (sysName,itemtype) VALUES (&quot;二级鸡舍升级证明&quot;,&quot;道具类&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemshop (sysName,itemtype) VALUES (&quot;三级鸡舍升级证明&quot;,&quot;道具类&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemshop (sysName,itemtype) VALUES (&quot;四级鸡舍升级证明&quot;,&quot;道具类&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemshop (sysName,itemtype) VALUES (&quot;五级鸡舍升级证明&quot;,&quot;道具类&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemshop (sysName,itemtype) VALUES (&quot;二级加工厂升级证明&quot;,&quot;道具类&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemshop (sysName,itemtype) VALUES (&quot;三级加工厂升级证明&quot;,&quot;道具类&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemshop (sysName,itemtype) VALUES (&quot;四级加工厂升级证明&quot;,&quot;道具类&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemshop (sysName,itemtype) VALUES (&quot;五级加工厂升级证明&quot;,&quot;道具类&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemshop (sysName,itemtype) VALUES (&quot;二级科研楼升级证明&quot;,&quot;道具类&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemshop (sysName,itemtype) VALUES (&quot;三级科研楼升级证明&quot;,&quot;道具类&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemshop (sysName,itemtype) VALUES (&quot;四级科研楼升级证明&quot;,&quot;道具类&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemshop (sysName,itemtype) VALUES (&quot;五级科研楼升级证明&quot;,&quot;道具类&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemshop (sysName,itemtype) VALUES (&quot;三轮车&quot;,&quot;交通工具类&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemshop (sysName,itemtype) VALUES (&quot;农用车&quot;,&quot;交通工具类&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemshop (sysName,itemtype) VALUES (&quot;货车&quot;,&quot;交通工具类&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemshop (sysName,itemtype) VALUES (&quot;卡车&quot;,&quot;交通工具类&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemshop (sysName,itemtype) VALUES (&quot;集装箱&quot;,&quot;交通工具类&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemshop (sysName,itemtype) VALUES (&quot;直升机&quot;,&quot;交通工具类&quot;)</SqlScript>
+</Table>

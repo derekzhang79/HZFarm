@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/ios/!svn/ver/42/HZFarmNew/HZFarm/Component/sqllite
+END
+SqlUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/ios/!svn/ver/22/HZFarmNew/HZFarm/Component/sqllite/SqlUtil.h
+END
+sqlliteService.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/ios/!svn/ver/22/HZFarmNew/HZFarm/Component/sqllite/sqlliteService.h
+END
+sqlScripService.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/ios/!svn/ver/22/HZFarmNew/HZFarm/Component/sqllite/sqlScripService.h
+END
+sqlliteService.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/ios/!svn/ver/42/HZFarmNew/HZFarm/Component/sqllite/sqlliteService.m
+END
+sqlScripService.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/ios/!svn/ver/22/HZFarmNew/HZFarm/Component/sqllite/sqlScripService.m
+END

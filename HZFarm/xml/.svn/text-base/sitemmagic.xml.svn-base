@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Table tableName="sitemmagic">
+    <SqlScript>CREATE TABLE IF NOT EXISTS sitemmagic (sysName TEXT,mtype TEXT,k TEXT,kitem TEXT,kfood INTEGER,kwater INTEGER)</SqlScript>
+    <SqlScript>INSERT INTO sitemmagic (sysName,mtype,k,kitem,kfood,kwater) VALUES (&quot;一级科研楼&quot;,&quot;鸡舍&quot;,&quot;1&quot;,&quot;火鸡&quot;,&quot;0&quot;,&quot;0&quot;)</SqlScript>
+    <SqlScript>INSERT INTO sitemmagic (sysName,mtype,k,kitem) VALUES (&quot;二级科研楼&quot;,&quot;鸡舍&quot;,&quot;1&quot;,&quot;殖火鸡#珍珠鸡&quot;)</SqlScript>
+    <SqlScript>INSERT INTO sitemmagic (sysName,mtype,k,kitem) VALUES (&quot;三级科研楼&quot;,&quot;鸡舍&quot;,&quot;1&quot;,&quot;火鸡#珍珠鸡#贵妃鸡&quot;)</SqlScript>
+    <SqlScript>INSERT INTO sitemmagic (sysName,mtype,k,kitem) VALUES (&quot;四级科研楼&quot;,&quot;鸡舍&quot;,&quot;1&quot;,&quot;火鸡#珍珠鸡#贵妃鸡#天鹅&quot;)</SqlScript>
+    <SqlScript>INSERT INTO sitemmagic (sysName,mtype,k,kitem) VALUES (&quot;五级科研楼&quot;,&quot;鸡舍&quot;,&quot;1&quot;,&quot;火鸡#珍珠鸡#贵妃鸡#天鹅#鸵鸟#孔雀&quot;)</SqlScript>
+</Table>

@@ -1,0 +1,27 @@
+//
+//  BuildingView.h
+//  FARM
+//
+//  Created by Yunky on 12-4-18.
+//  Copyright 2012年 __MyCompanyName__. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "cocos2d.h"
+#import "SWScrollView.h"
+#import "DAHeader.h"
+#import "WorldLayer.h"
+#import "Firstlayermenu.h"
+#import "DABuildingEntity.h"
+#import "DAItemService.h"
+
+@interface BuildingLayer : CCLayer {
+    
+    NSMutableArray *newBuildButton, *generalBuildButton, *decorationBuildButton;CCMenuItemImage *bottomButton;
+}
+-(void)generalBuilding;
+
+- (void)newProduct;
+
+- (void)decoration;
+@end

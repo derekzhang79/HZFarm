@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" width="160" height="160" tilewidth="64" tileheight="32">
+ <tileset firstgid="1" name="a1" tilewidth="2048" tileheight="1536">
+  <image source="a1.png" width="2048" height="1536"/>
+ </tileset>
+ <tileset firstgid="2" name="a2" tilewidth="2048" tileheight="1536">
+  <image source="a2.png" width="2048" height="1536"/>
+ </tileset>
+ <tileset firstgid="3" name="a3" tilewidth="2048" tileheight="1536">
+  <image source="a3.png" width="2048" height="1536"/>
+ </tileset>
+ <tileset firstgid="4" name="a4" tilewidth="2048" tileheight="1536">
+  <image source="a4.png" width="2048" height="1536"/>
+ </tileset>
+ <tileset firstgid="5" name="gonglu" tilewidth="192" tileheight="96">
+  <image source="公路.png" width="576" height="480"/>
+ </tileset>
+ <tileset firstgid="20" name="bianji01" tilewidth="320" tileheight="160">
+  <image source="bianji01.png" width="640" height="320"/>
+ </tileset>
+ <tileset firstgid="24" name="最小装饰物" tilewidth="64" tileheight="32">
+  <image source="最小装饰物.png" width="320" height="96"/>
+ </tileset>
+ <tileset firstgid="39" name="shu" tilewidth="64" tileheight="128">
+  <image source="shu.png" width="192" height="128"/>
+ </tileset>
+ <tileset firstgid="42" name="lan" tilewidth="320" tileheight="160">
+  <image source="lan.png" width="320" height="160"/>
+ </tileset>
+ <tileset firstgid="43" name="大广场" tilewidth="576" tileheight="288">
+  <image source="大广场.png" width="576" height="288"/>
+ </tileset>
+ <tileset firstgid="44" name="大门" tilewidth="448" tileheight="416">
+  <image source="大门.png" width="448" height="416"/>
+ </tileset>
+ <tileset firstgid="45" name="广告牌" tilewidth="192" tileheight="224">
+  <image source="广告牌.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="46" name="仓库" tilewidth="320" tileheight="288">
+  <image source="仓库.png" width="320" height="288"/>
+ </tileset>
+ <tileset firstgid="47" name="商店" tilewidth="320" tileheight="288">
+  <image source="商店.png" width="320" height="288"/>
+ </tileset>
+ <layer name="a1" width="160" height="160">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7Dh3zQGdpLwtAqaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdPMdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOLYJ3gAC
+  </data>
+ </layer>
+ <layer name="a2" width="160" height="160">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7AF/6LRMB6eVkETAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC7mOwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1BYirQAD
+  </data>
+ </layer>
+ <layer name="a3" width="160" height="160">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAMA6Am8+95MnoUFJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAArrh0oe5MPAAQ=
+  </data>
+ </layer>
+ <layer name="a4" width="160" height="160">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7Ad+NdMJoLwtAqaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFDzHQAAAAAAAAAAAAAAAAAAAAAAAAAAzi3SHgAF
+  </data>
+ </layer>
+ <layer name="边界" width="160" height="160" opacity="0.93">
+  <data encoding="base64" compression="zlib">
+   eJzt2LEJACAQA8AfQnT/Td1Anm8CctemSZEqVQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB07XQBgJCTLgAAAADAiF+HrvXI7AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA31whBQBw
+  </data>
+ </layer>
+ <layer name="公路" width="160" height="160">
+  <data encoding="base64" compression="zlib">
+   eJzt3bsOwkAMBMA0QHgT+P9/pY1EkyDhBTxTuYhOW0RaubkbBgAgYZMOAAANbdMBAKChXToAADQ0pgMAQEP7dAAAaOiQDgAADR3TAQCgoVM6AAA0dE4HAICGLukAANDQNR0AABq6pQMAQENTOgAANHRPBwCAhh7pAADAW7zhAAD19C8A1NO/AFBP//JL5neeTwtmb4QB30r/krT2//v09wDQwTibl+yza+88X3u+O10B6MD+CwD11vbjYTYv2We90QkAr+ynAFBP/wJAPf0LAPX0LwDU078AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/+EJA2wCTQ==
+  </data>
+ </layer>
+ <layer name="小装饰物品" width="160" height="160">
+  <data encoding="base64" compression="zlib">
+   eJzt3VFOwzAMANAeAyFg2eD+Z0T9qFSyDkqbzmnynoTGx9gszbJbJxnDAAAAAAAAAAAAAAAAAABAC15mv3+FRQEAQI1u0QEAAAAAAADMjGsXtexvefn7KQC7vAa//0fw+xNnqcdF5yP9OCLXXLeR+3zCe1wGvZR779EBBFOP23KJDgBghaPuZcfXVQdZ8jqUybtSrwN7yEEAOM58Tran5+rXUF6vc+w1a1rTnr10YByQm2Zw1l2Jcoa+cBnMq3keuUYt5GK73qIDeEDOEeGSPdK2a3QAf7jNfji38T63lrO5v1H72vWMcxxwdvptH5bW+sceXcN6SK05eIZ5PdA29ykAnEWKDgBmUnQAAEG2frdQDfNBzi9FB3AQexaYmNPxH7XvyaIPNZ8D33MeSV+Oszanpue1WAvlX5wt+08jPi/f3damtXuHrkNs7ZN7zK2tgWPepOHnXKfFHk4Z0xx5niO/1Z50XCh3eQtrpZ1/X6LfmjOyRRpc74G5TF16vW+Qh0ApS7PkFBAH/Zrnn/5GabfsMWc2wl6P9nRurWfqIFv8Z8++fQScje/oAnriWhDuOUdHFHnXp1o+91riAPqj/gAAOdcHRJJ/wJGsP1ADOQi0LP9fv2oeAAAAADCxVgf0TP2jN3KeaHIQALYp1UP1YnJyAgCgH679iGJPAkA5aipR8jPKAK1T8wAAAAAAAAD6Zb0YAJ5L7wUAAOBsnLkEAKBX3yaREzc=
+  </data>
+ </layer>
+ <layer name="树木" width="160" height="160">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer name="black" width="160" height="160" opacity="0.23">
+  <data encoding="base64" compression="zlib">
+   eJzt18FtQzEMBUHXk/4LTAPfgAEjzIqaOfKkk/D29QIAmPfz3w8AAABWemqNT28AAADvfNMamgQAAHhnojU0CQAA3KfUGpoEAADm/PXWLjWEJgEAgD1KbaBJAABgj9Lmr98AAIDPlbb8lhsAANDa6LfdAABgsxN3cakXNAkAADzbsoFLbaBJAABg994tdUDpBgAAE27btqXNX78BAMCEzTu2tO9PvAEAwIQtm7W05bfcAABgwon7tLTbN98AAGBCaQO7tW4AADChtIHdWjcAAJhQ2sBu+gNgir8QoKO0i930BwAA9yltZTf9AQDAfUr72U1rAABwn9LOdgMAgPuU9vjmGwAA8Ky020+8AQAA3ynt+9INAACYUeoArQEAAPcp9YLWAACA+5S6QmsAAMB9tAYAADBFa8AZfgEr+lBl
+  </data>
+ </layer>
+ <layer name="广场" width="160" height="160">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAIA6D1sX8/M8zHBxKQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBvvgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcLBFGQAs
+  </data>
+ </layer>
+ <layer name="农场大门" width="160" height="160">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAMAiADrX++xfAQEpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEDftQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABMeHqnAC0=
+  </data>
+ </layer>
+ <layer name="广告牌" width="160" height="160">
+  <data encoding="base64" compression="zlib">
+   eJztzgEJAAAMA6AVev96jzEGmsAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFh17QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAmAcB2wAu
+  </data>
+ </layer>
+ <layer name="仓库" width="160" height="160">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAMAiATrX+8xfAQEpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEDftQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABMeHeTAC8=
+  </data>
+ </layer>
+ <layer name="商店" width="160" height="160">
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6A3sn87Y9w5SEACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB8Nu0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAIQudEgAw
+  </data>
+ </layer>
+</map>

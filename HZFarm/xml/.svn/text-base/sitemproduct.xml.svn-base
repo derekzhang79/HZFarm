@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Table tableName="sitemproduct">
+    <SqlScript>CREATE TABLE IF NOT EXISTS sitemproduct (sysName TEXT,kproduct REAL,items TEXT)</SqlScript>
+    <SqlScript>INSERT INTO sitemproduct (sysName,kproduct,items) VALUES (&quot;一级加工厂&quot;,&quot;1&quot;,&quot;水煮蛋#茶叶蛋#松花蛋#饼干#面包#鸡蛋面#蛋挞#蛋卷#蛋黄酱#蛋白粉#奶油蛋糕#草莓蛋糕#巧克力蛋糕#香草蛋糕#芝士蛋糕#黄金蛋#钻石&quot;)</SqlScript>
+    <SqlScript>INSERT INTO sitemproduct (sysName,kproduct,items) VALUES (&quot;二级加工厂&quot;,&quot;2&quot;,&quot;水煮蛋#茶叶蛋#松花蛋#饼干#面包#鸡蛋面#蛋挞#蛋卷#蛋黄酱#蛋白粉#奶油蛋糕#草莓蛋糕#巧克力蛋糕#香草蛋糕#芝士蛋糕#黄金蛋#钻石&quot;)</SqlScript>
+    <SqlScript>INSERT INTO sitemproduct (sysName,kproduct,items) VALUES (&quot;三级加工厂&quot;,&quot;3&quot;,&quot;水煮蛋#茶叶蛋#松花蛋#饼干#面包#鸡蛋面#蛋挞#蛋卷#蛋黄酱#蛋白粉#奶油蛋糕#草莓蛋糕#巧克力蛋糕#香草蛋糕#芝士蛋糕#黄金蛋#钻石&quot;)</SqlScript>
+    <SqlScript>INSERT INTO sitemproduct (sysName,kproduct,items) VALUES (&quot;四级加工厂&quot;,&quot;4&quot;,&quot;水煮蛋#茶叶蛋#松花蛋#饼干#面包#鸡蛋面#蛋挞#蛋卷#蛋黄酱#蛋白粉#奶油蛋糕#草莓蛋糕#巧克力蛋糕#香草蛋糕#芝士蛋糕#黄金蛋#钻石&quot;)</SqlScript>
+    <SqlScript>INSERT INTO sitemproduct (sysName,kproduct,items) VALUES (&quot;五级加工厂&quot;,&quot;5&quot;,&quot;水煮蛋#茶叶蛋#松花蛋#饼干#面包#鸡蛋面#蛋挞#蛋卷#蛋黄酱#蛋白粉#奶油蛋糕#草莓蛋糕#巧克力蛋糕#香草蛋糕#芝士蛋糕#黄金蛋#钻石&quot;)</SqlScript>
+</Table>

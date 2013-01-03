@@ -1,0 +1,690 @@
+//
+//  BuildingView.m
+//  FARM
+//
+//  Created by Yunky on 12-4-18.
+//  Copyright 2012年 __MyCompanyName__. All rights reserved.
+//
+
+#import "BuildingLayer.h"
+#import "Sperkermenuservice.h"
+@implementation BuildingLayer
+
+-(id) init
+{
+	// always call "super" init
+	// Apple recommends to re-assign "self" with the "super" return value
+    if( (self=[super init])) {
+		//CGSize winSize = [CCDirector sharedDirector].winSize;
+        
+        // Background
+        [CCTexture2D setDefaultAlphaPixelFormat:kCCTexture2DPixelFormat_RGB565];
+        CCSprite *bg = [CCSprite spriteWithFile:@"BuildingBackground.png"];
+        bg.anchorPoint = ccp(0, 0);
+        [self addChild:bg z:0];
+        [CCTexture2D setDefaultAlphaPixelFormat:kCCTexture2DPixelFormat_Default];
+        CCSprite *buildLogo = [CCSprite spriteWithFile:@"build.png"];
+        buildLogo.position = ccp(500, 720);
+        [self addChild:buildLogo z:0];
+        
+        //建筑按钮
+        CCMenuItemImage *buildButton = [CCMenuItemImage itemFromNormalImage:@"build_0.png" 
+                                                              selectedImage:@"build_1.png" 
+                                                                     target:self 
+                                                                   selector:@selector(showGeneralBuilding:)];
+        //装饰按钮
+        CCMenuItemImage *decorationButton = [CCMenuItemImage itemFromNormalImage:@"decoration_0.png" 
+                                                                   selectedImage:@"decoration_1.png" 
+                                                                          target:self 
+                                                                        selector:@selector(showDecoration:)];        
+        
+        //左边的三个按钮布局
+        CCMenu *menu_left = [CCMenu menuWithItems: buildButton, decorationButton, nil];
+        menu_left.position = ccp(125, 420);
+        [menu_left alignItemsVerticallyWithPadding:25.0f];
+        [self addChild:menu_left z:2];
+        
+        //金币图标
+        CCSprite *spriteGold = [CCSprite spriteWithFile:@"gold.png"];
+        spriteGold.position = ccp(260, 80);
+        [self addChild:spriteGold z:1];
+        CCSprite *spriteGoldBaseMap = [CCSprite spriteWithFile:@"numBar.png"];
+        spriteGoldBaseMap.position = ccp(360, 80);
+        [self addChild:spriteGoldBaseMap z:0];
+        
+//        //钻石图标
+//        CCSprite *spriteDiamond = [CCSprite spriteWithFile:@"diamond.png"];
+//        spriteDiamond.position = ccp(600, 80);
+//        [self addChild:spriteDiamond z:1];
+//        CCSprite *spriteDiamondBaseMap = [CCSprite spriteWithFile:@"base map.png"];
+//        spriteDiamondBaseMap.position = ccp(700, 80);
+//        [self addChild:spriteDiamondBaseMap z:0];
+        
+        //下方金币数
+        CCLabelAtlas *labelGoldBottom = [CCLabelAtlas labelWithString:@"0000" charMapFile:@"gold_number.png" itemWidth:17 itemHeight:25 startCharMap:'0'];
+        labelGoldBottom.position = ccp(410, 77);
+        labelGoldBottom.anchorPoint = ccp(0.5, 0.5);
+        [self addChild:labelGoldBottom z:3];
+        
+//        //下方钻石数
+//        CCLabelAtlas *labelDiamond = [CCLabelAtlas labelWithString:@"0000" charMapFile:@"diamond number.png" itemWidth:17 itemHeight:25 startCharMap:'0'];
+//        labelDiamond.position = ccp(760, 77);
+//        labelDiamond.anchorPoint = ccp(0.5, 0.5);
+//        [self addChild:labelDiamond z:3];
+        
+        //下方返回按钮
+        CCMenuItemImage *backButton = [CCMenuItemImage itemFromNormalImage:@"back_0.png" selectedImage:@"back_1.png" target:self selector:@selector(goBackWorldScene:)];
+        
+        CCMenu *menu_rightbottom = [CCMenu menuWithItems:backButton, nil];
+        menu_rightbottom.position = ccp(950, 80);
+        [self addChild:menu_rightbottom z:2];
+        [self generalBuilding];
+//      [self decoration];
+        
+        
+    }
+    return self;
+}
+
+
+//建筑操作
+- (void)building:(id)sender
+{
+    if (sender == [generalBuildButton objectAtIndex:0]) {
+
+        
+        [[Sperkermenuservice  getSharedSperkermenuservice]makethekind:1];
+        CCScene *scene = [CCScene node];
+        
+        // 'layer' is an autorelease object.
+        WorldLayer *worldLayer = [WorldLayer node];
+        
+        
+        //Scene *sc = [Scene node]; 
+        [scene addChild:worldLayer];
+        
+        Firstlayermenu *menuLayer = [Firstlayermenu node];
+        [scene addChild:menuLayer];
+        
+        [[CCDirector sharedDirector] replaceScene: [CCTransitionSlideInR transitionWithDuration:0.1f scene:scene]];    
+
+    }
+    else if(sender == [generalBuildButton objectAtIndex:1])
+    {
+        [[Sperkermenuservice  getSharedSperkermenuservice]makethekind:2];
+        CCScene *scene = [CCScene node];
+        
+        // 'layer' is an autorelease object.
+        WorldLayer *worldLayer = [WorldLayer node];
+        
+        
+        //Scene *sc = [Scene node]; 
+        [scene addChild:worldLayer];
+        
+        Firstlayermenu *menuLayer = [Firstlayermenu node];
+        [scene addChild:menuLayer];
+        
+        [[CCDirector sharedDirector] replaceScene: [CCTransitionSlideInR transitionWithDuration:0.1f scene:scene]];    
+
+}
+    else if(sender == [generalBuildButton objectAtIndex:2])
+    {
+        [[Sperkermenuservice  getSharedSperkermenuservice]makethekind:3];
+        CCScene *scene = [CCScene node];
+        
+        // 'layer' is an autorelease object.
+        WorldLayer *worldLayer = [WorldLayer node];
+        
+        
+        //Scene *sc = [Scene node]; 
+        [scene addChild:worldLayer];
+        
+        Firstlayermenu *menuLayer = [Firstlayermenu node];
+        [scene addChild:menuLayer];
+        
+        [[CCDirector sharedDirector] replaceScene: [CCTransitionSlideInR transitionWithDuration:0.1f scene:scene]];    
+
+
+    }
+    
+//	if (sender == [allBuildButton objectAtIndex:1]) {
+//        NSLog(@"－－－－－－－－－－－2");
+//    }
+}
+
+- (void)showGeneralBuilding:(id)sender
+{
+    [self removeChildByTag:1 cleanup:YES];
+    [self removeChildByTag:2 cleanup:YES];
+    [self removeChildByTag:3 cleanup:YES];
+    [self generalBuilding];
+    
+    CCMenuItemImage *backButton = [CCMenuItemImage itemFromNormalImage:@"back_0.png" selectedImage:@"back_1.png" target:self selector:@selector(goBackWorldScene:)];
+    CCMenu *menu_rightbottom = [CCMenu menuWithItems:backButton, nil];
+    menu_rightbottom.position = ccp(950, 80);
+    [self addChild:menu_rightbottom z:2];
+    
+
+}
+
+-(void)generalBuilding
+
+{
+    CCLayer* BuildBoxLayer = [CCLayer node];
+    BuildBoxLayer.contentSize = CGSizeMake(768, 1155);
+    generalBuildButton = [[NSMutableArray alloc] init];
+    
+    for (int i = 0; i < 3; i++) {
+        
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"Building2" ofType:@"plist"]; 
+        NSDictionary *tmp = [NSDictionary dictionaryWithContentsOfFile:path];
+        NSArray* name = [tmp allKeys];
+        NSArray* pic = [tmp allValues];
+        
+        //按钮
+        CCMenuItemImage *bottomButton = [CCMenuItemImage itemFromNormalImage:@"bottom_0.png" selectedImage:@"bottom_1.png" target:self selector:@selector(building:)];
+
+       [generalBuildButton addObject:bottomButton];
+        
+        bottomButton.anchorPoint = ccp(0.5, 1);
+        CCMenu *menu_bottom = [CCMenu menuWithItems:bottomButton, nil];
+        menu_bottom.position = ccpAdd(ccp(90, 1155-235*(i/4)),ccp((i%4 * 185), 0));
+        [BuildBoxLayer addChild:menu_bottom z:0];
+        
+        //建筑名字
+        CCLabelTTF *labelName = [CCLabelTTF labelWithString:[name objectAtIndex:i] fontName:@"FZHPJW" fontSize:18];
+        labelName.color = ccWHITE;
+        labelName.anchorPoint = ccp(0.5f, 0.5f);
+        labelName.position = ccp(88, 195);
+        [bottomButton addChild:labelName z:0 tag:1];
+        bottomButton.anchorPoint = ccp(0.5, 1);
+        
+		//建筑图片
+        CCSprite *spritePic = [CCSprite spriteWithFile:[pic objectAtIndex:i]];
+        spritePic.anchorPoint = ccp(0.5f, 0.5f);
+        spritePic.position = ccp(88, 125);
+        [bottomButton addChild:spritePic z:0];
+        spritePic.scaleX = 1.5;
+        spritePic.scaleY = 1.5;
+        NSString *strname = [name objectAtIndex:i];
+        if ([strname isEqualToString: @"食品加工厂"])
+        {
+            spritePic.position = ccp(88, 100);
+        }
+        
+        if ([strname isEqualToString: @"研究所"])
+        {
+            spritePic.position = ccp(88, 105);
+        }
+        
+        CCSprite *spriteCoinBar = [CCSprite spriteWithFile:@"black bar.png"];
+        spriteCoinBar.anchorPoint = ccp(0.5f, 0.5f);
+        spriteCoinBar.position = ccp(93, 27);
+        [bottomButton addChild:spriteCoinBar z:0];
+        CCSprite *spriteCoin = [CCSprite spriteWithFile:@"coin.png"];
+        spriteCoin.anchorPoint = ccp(0.5f, 0.5f);
+        spriteCoin.position = ccp(53, 27);
+        [bottomButton addChild:spriteCoin z:0];
+        CCLabelAtlas *labelPriUpdate = [CCLabelAtlas labelWithString:@"000" charMapFile:@"gold_number.png" itemWidth:17 itemHeight:25 startCharMap:'0'];
+        labelPriUpdate.anchorPoint = ccp(0.5f, 0.5f);
+        labelPriUpdate.position = ccp(120, 25);
+        [labelPriUpdate setScale:0.75f];
+        [bottomButton addChild:labelPriUpdate z:0];
+    }
+    
+    SWScrollView *generalBuildBox = [SWScrollView viewWithViewSize:CGSizeMake(735, 500)];
+    generalBuildBox.position = ccp(245, 166);
+    generalBuildBox.contentOffset = ccp(0, 0);
+    generalBuildBox.contentSize = BuildBoxLayer.contentSize;
+    generalBuildBox.direction = SWScrollViewDirectionVertical;
+    generalBuildBox.bounces = NO;
+    BuildBoxLayer.position = ccp(0, 0);
+    [generalBuildBox addChild:BuildBoxLayer];
+    [generalBuildBox setContentOffset:CGPointMake(0, -678) animated:YES];
+    [self addChild:generalBuildBox z:3 tag:2];
+}
+
+- (void)showDecoration:(id)sender
+{
+    [self removeChildByTag:1 cleanup:YES];
+    [self removeChildByTag:2 cleanup:YES];
+    [self removeChildByTag:3 cleanup:YES];
+	[self decoration];
+    
+    CCMenuItemImage *backButton = [CCMenuItemImage itemFromNormalImage:@"back_0.png" selectedImage:@"back_1.png" target:self selector:@selector(goBackWorldScene:)];
+    CCMenu *menu_rightbottom = [CCMenu menuWithItems:backButton, nil];
+    menu_rightbottom.position = ccp(950, 80);
+    [self addChild:menu_rightbottom z:2];
+    
+
+}
+
+
+-(void)buildingmagic0:(id)sender
+{
+    UIAlertView * alview=[[UIAlertView alloc]initWithTitle:@"提示" message:@"您还不能建造该建筑哦！" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil   , nil];
+    [alview show];
+    [alview release];
+    return;
+    [[Sperkermenuservice  getSharedSperkermenuservice]makethekind:21];
+    
+    CCScene *scene = [CCScene node];
+	
+	// 'layer' is an autorelease object.
+	WorldLayer *worldLayer = [WorldLayer node];
+    
+    
+    //Scene *sc = [Scene node]; 
+    [scene addChild:worldLayer];
+    
+    Firstlayermenu *menuLayer = [Firstlayermenu node];
+    [scene addChild:menuLayer];
+    
+    [[CCDirector sharedDirector] replaceScene: [CCTransitionSlideInR transitionWithDuration:0.1f scene:scene]];    
+
+
+
+}
+-(void)buildingmagic1:(id)sender
+{
+    
+     [[Sperkermenuservice  getSharedSperkermenuservice]makethekind:4];
+    
+    CCScene *scene = [CCScene node];
+	
+	// 'layer' is an autorelease object.
+	WorldLayer *worldLayer = [WorldLayer node];
+    
+    
+    //Scene *sc = [Scene node]; 
+    [scene addChild:worldLayer];
+    
+    Firstlayermenu *menuLayer = [Firstlayermenu node];
+    [scene addChild:menuLayer];
+    
+    [[CCDirector sharedDirector] replaceScene: [CCTransitionSlideInR transitionWithDuration:0.1f scene:scene]];    
+
+    
+    
+    
+}
+-(void)buildingmagic2:(id)sender
+{
+    
+    
+     [[Sperkermenuservice  getSharedSperkermenuservice]makethekind:5];
+    
+    CCScene *scene = [CCScene node];
+	
+	// 'layer' is an autorelease object.
+	WorldLayer *worldLayer = [WorldLayer node];
+    
+    
+    //Scene *sc = [Scene node]; 
+    [scene addChild:worldLayer];
+    
+    Firstlayermenu *menuLayer = [Firstlayermenu node];
+    [scene addChild:menuLayer];
+    
+    [[CCDirector sharedDirector] replaceScene: [CCTransitionSlideInR transitionWithDuration:0.1f scene:scene]];    
+
+    
+    
+}
+-(void)buildingmagic3:(id)sender
+{
+   [[Sperkermenuservice  getSharedSperkermenuservice]makethekind:6];  
+    
+    
+    CCScene *scene = [CCScene node];
+	
+	// 'layer' is an autorelease object.
+	WorldLayer *worldLayer = [WorldLayer node];
+    
+    
+    //Scene *sc = [Scene node]; 
+    [scene addChild:worldLayer];
+    
+    Firstlayermenu *menuLayer = [Firstlayermenu node];
+    [scene addChild:menuLayer];
+    
+    [[CCDirector sharedDirector] replaceScene: [CCTransitionSlideInR transitionWithDuration:0.1f scene:scene]];    
+
+    
+    
+    
+}
+-(void)buildingmagic4:(id)sender
+{
+    
+     [[Sperkermenuservice  getSharedSperkermenuservice]makethekind:7];
+    
+    
+    CCScene *scene = [CCScene node];
+	
+	// 'layer' is an autorelease object.
+	WorldLayer *worldLayer = [WorldLayer node];
+    
+    
+    //Scene *sc = [Scene node]; 
+    [scene addChild:worldLayer];
+    
+    Firstlayermenu *menuLayer = [Firstlayermenu node];
+    [scene addChild:menuLayer];
+    
+    [[CCDirector sharedDirector] replaceScene: [CCTransitionSlideInR transitionWithDuration:0.1f scene:scene]];    
+
+    
+    
+}
+-(void)buildingmagic5:(id)sender
+{
+    
+    
+    
+     [[Sperkermenuservice  getSharedSperkermenuservice]makethekind:8];
+    
+    CCScene *scene = [CCScene node];
+	
+	// 'layer' is an autorelease object.
+	WorldLayer *worldLayer = [WorldLayer node];
+    
+    
+    //Scene *sc = [Scene node]; 
+    [scene addChild:worldLayer];
+    
+    Firstlayermenu *menuLayer = [Firstlayermenu node];
+    [scene addChild:menuLayer];
+    
+    [[CCDirector sharedDirector] replaceScene: [CCTransitionSlideInR transitionWithDuration:0.1f scene:scene]];    
+
+    
+}
+-(void)buildingmagic6:(id)sender
+{
+    
+    
+     [[Sperkermenuservice  getSharedSperkermenuservice]makethekind:9];
+    CCScene *scene = [CCScene node];
+	
+	// 'layer' is an autorelease object.
+	WorldLayer *worldLayer = [WorldLayer node];
+    
+    
+    //Scene *sc = [Scene node]; 
+    [scene addChild:worldLayer];
+    
+    Firstlayermenu *menuLayer = [Firstlayermenu node];
+    [scene addChild:menuLayer];
+    
+    [[CCDirector sharedDirector] replaceScene: [CCTransitionSlideInR transitionWithDuration:0.1f scene:scene]];    
+
+    
+    
+    
+}
+-(void)buildingmagic7:(id)sender
+{
+    
+    
+    
+     [[Sperkermenuservice  getSharedSperkermenuservice]makethekind:10];
+    
+    CCScene *scene = [CCScene node];
+	
+	// 'layer' is an autorelease object.
+	WorldLayer *worldLayer = [WorldLayer node];
+    
+    
+    //Scene *sc = [Scene node]; 
+    [scene addChild:worldLayer];
+    
+    Firstlayermenu *menuLayer = [Firstlayermenu node];
+    [scene addChild:menuLayer];
+    
+    [[CCDirector sharedDirector] replaceScene: [CCTransitionSlideInR transitionWithDuration:0.1f scene:scene]];    
+
+    
+}-(void)buildingmagic8:(id)sender
+{
+    
+    
+     [[Sperkermenuservice  getSharedSperkermenuservice]makethekind:11];
+    
+    
+    CCScene *scene = [CCScene node];
+	
+	// 'layer' is an autorelease object.
+	WorldLayer *worldLayer = [WorldLayer node];
+    
+    
+    //Scene *sc = [Scene node]; 
+    [scene addChild:worldLayer];
+    
+    Firstlayermenu *menuLayer = [Firstlayermenu node];
+    [scene addChild:menuLayer];
+    
+    [[CCDirector sharedDirector] replaceScene: [CCTransitionSlideInR transitionWithDuration:0.1f scene:scene]];    
+
+    
+}
+-(void)buildingmagic9:(id)sender
+{
+    
+    
+     [[Sperkermenuservice  getSharedSperkermenuservice]makethekind:12];
+    
+    CCScene *scene = [CCScene node];
+	
+	// 'layer' is an autorelease object.
+	WorldLayer *worldLayer = [WorldLayer node];
+    
+    
+    //Scene *sc = [Scene node]; 
+    [scene addChild:worldLayer];
+    
+    Firstlayermenu *menuLayer = [Firstlayermenu node];
+    [scene addChild:menuLayer];
+    
+    [[CCDirector sharedDirector] replaceScene: [CCTransitionSlideInR transitionWithDuration:0.1f scene:scene]];    
+
+    
+    
+}
+-(void)buildingmagic10:(id)sender
+{
+     [[Sperkermenuservice  getSharedSperkermenuservice]makethekind:13];
+    CCScene *scene = [CCScene node];
+	
+	// 'layer' is an autorelease object.
+	WorldLayer *worldLayer = [WorldLayer node];
+    
+    
+    //Scene *sc = [Scene node]; 
+    [scene addChild:worldLayer];
+    
+    Firstlayermenu *menuLayer = [Firstlayermenu node];
+    [scene addChild:menuLayer];
+    
+    [[CCDirector sharedDirector] replaceScene: [CCTransitionSlideInR transitionWithDuration:0.1f scene:scene]];    
+
+    
+    
+}
+-(void)buildingmagic11:(id)sender
+{
+     [[Sperkermenuservice  getSharedSperkermenuservice]makethekind:14];
+    
+    CCScene *scene = [CCScene node];
+	
+	// 'layer' is an autorelease object.
+	WorldLayer *worldLayer = [WorldLayer node];
+    
+    
+    //Scene *sc = [Scene node]; 
+    [scene addChild:worldLayer];
+    
+    Firstlayermenu *menuLayer = [Firstlayermenu node];
+    [scene addChild:menuLayer];
+    
+    [[CCDirector sharedDirector] replaceScene: [CCTransitionSlideInR transitionWithDuration:0.1f scene:scene]];    
+
+}
+-(void)buildingmagic12:(id)sender
+{
+    
+    
+     [[Sperkermenuservice  getSharedSperkermenuservice]makethekind:15];
+    CCScene *scene = [CCScene node];
+	
+	// 'layer' is an autorelease object.
+	WorldLayer *worldLayer = [WorldLayer node];
+    
+    
+    //Scene *sc = [Scene node]; 
+    [scene addChild:worldLayer];
+    
+    Firstlayermenu *menuLayer = [Firstlayermenu node];
+    [scene addChild:menuLayer];
+    
+    [[CCDirector sharedDirector] replaceScene: [CCTransitionSlideInR transitionWithDuration:0.1f scene:scene]];    
+
+    
+    
+    
+}
+
+//*********************//
+//-(void) writeToPlist
+//{
+//    NSMutableArray *Data = [NSMutableArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"data" ofType:@"plist"]];
+//	
+//	[Data addObject:@"建造状态.png"];
+//	[Data addObject:@"i"];
+//	
+//	NSString *Path = [NSString stringWithFormat:@"%@Savedata.plist",NSTemporaryDirectory()];
+//	[[NSArray arrayWithObjects:Data,nil] writeToFile:Path atomically:NO];
+//}
+//********************//
+
+- (void)decoration
+{
+    CCLayer* BuildBoxLayer = [CCLayer node];
+    BuildBoxLayer.contentSize = CGSizeMake(768, 1155);
+    decorationBuildButton = [[NSMutableArray alloc] init];
+    
+//    NSString *path = [[NSBundle mainBundle] pathForResource:@"BuildingItem" ofType:@"plist"]; 
+//    NSDictionary *tmp = [NSDictionary dictionaryWithContentsOfFile:path];
+    
+    NSArray* pic = [NSArray arrayWithObjects:@"建造状态.png",@"小风车.png",@"看守者小屋.png",@"灵石.png", @"柳树.png",@"榕树.png",@"桃树.png",@"蓄水池.png",@"椰子树.png",@"竹丛.png",@"棕榈树.png",@"金花木.png",@"小草堆.png",nil];
+    NSArray* name = [NSArray arrayWithObjects:@"建造状态",@"小风车",@"看守者小屋",@"灵石",@"柳树",@"榕树",@"桃树",@"蓄水池",@"椰子树",@"竹丛",@"棕榈树",@"金花木",@"小草堆",nil];
+    
+    NSArray *money = [NSArray arrayWithObjects:@"0",@"1290",@"2800",@"0",@"830",@"480",@"4000",@"2000",@"1900",@"700",@"1930",@"20000",@"2000",nil];
+
+    for (int i = 0; i < 13; i++)
+    {
+        NSString *selectorName = [NSString stringWithFormat:@"buildingmagic%i:", i];
+        SEL select = NSSelectorFromString(selectorName);
+        bottomButton = [CCMenuItemImage itemFromNormalImage:@"bottom_0.png" selectedImage:@"bottom_1.png" target:self selector:select];
+
+        bottomButton.anchorPoint = ccp(0.5, 1);
+        CCMenu *menu_bottom = [CCMenu menuWithItems:bottomButton, nil];
+        menu_bottom.position = ccpAdd(ccp(90, 1155-235*(i/4)),ccp((i%4 * 185), 0));
+        [BuildBoxLayer addChild:menu_bottom z:0];
+        
+        [decorationBuildButton addObject:bottomButton];        
+
+        
+        //建筑名字
+        CCLabelTTF *labelName = [CCLabelTTF labelWithString:[name objectAtIndex:i] fontName:@"FZHPJW" fontSize:18];
+        labelName.color = ccWHITE;
+        labelName.anchorPoint = ccp(0.5f, 0.5f);
+        labelName.position = ccp(88, 195);
+        [bottomButton addChild:labelName z:0 tag:1];
+        bottomButton.anchorPoint = ccp(0.5, 1);
+        
+        //建筑图片
+        CCSprite *spritePic = [CCSprite spriteWithFile:[pic objectAtIndex:i]];
+        spritePic.anchorPoint = ccp(0.5f, 0.5f);
+        spritePic.position = ccp(88, 125);
+        NSString *strname = [name objectAtIndex:i];
+        if ( [strname isEqualToString: @"建造状态"] || 
+            [strname isEqualToString: @"柳树"] || 
+            [strname isEqualToString: @"看守者小屋"] ||
+            [strname isEqualToString: @"桃树"] ||
+            [strname isEqualToString: @"小风车"] ||
+            [strname isEqualToString: @"榕树"])
+        {
+            spritePic.scale = 0.4;
+            spritePic.position = ccp(88, 120);
+        }
+        if ( [strname isEqualToString: @"灵石"])
+        {
+            spritePic.position = ccp(88, 150);
+        }
+        
+        [bottomButton addChild:spritePic z:0];
+        
+        CCSprite *spriteCoinBar = [CCSprite spriteWithFile:@"black bar.png"];
+        spriteCoinBar.anchorPoint = ccp(0.5f, 0.5f);
+        spriteCoinBar.position = ccp(93, 27);
+        [bottomButton addChild:spriteCoinBar z:0];
+        
+        CCSprite *spriteCoin = [CCSprite spriteWithFile:@"coin.png"];
+        spriteCoin.anchorPoint = ccp(0.5f, 0.5f);
+        spriteCoin.position = ccp(53, 27);
+        [bottomButton addChild:spriteCoin z:0];
+        
+        
+        CCLabelAtlas *labelPriUpdate = [CCLabelAtlas labelWithString:[money objectAtIndex:i] charMapFile:@"gold_number.png" itemWidth:17 itemHeight:25 startCharMap:'0'];
+        labelPriUpdate.anchorPoint = ccp(0.5f, 0.5f);
+        labelPriUpdate.position = ccp(120, 25);
+        [labelPriUpdate setScale:0.75f];
+        [bottomButton addChild:labelPriUpdate z:0];   
+        
+        
+    }
+      
+    SWScrollView *decorationBuildBox = [SWScrollView viewWithViewSize:CGSizeMake(735, 500)];
+    decorationBuildBox.position = ccp(245, 166);
+    decorationBuildBox.contentOffset = ccp(0, 0);
+    decorationBuildBox.contentSize = BuildBoxLayer.contentSize;
+    decorationBuildBox.direction = SWScrollViewDirectionVertical;
+    decorationBuildBox.bounces = NO;
+    BuildBoxLayer.position = ccp(0, 0);
+    [decorationBuildBox addChild:BuildBoxLayer];
+    [decorationBuildBox setContentOffset:CGPointMake(0, -678) animated:YES];
+    [self addChild:decorationBuildBox z:3 tag:3];
+}
+
+- (void)goBackWorldScene:(id) sender
+{
+    CCScene *scene = [CCScene node];
+	
+	// 'layer' is an autorelease object.
+	WorldLayer *worldLayer = [WorldLayer node];
+    
+    
+    //Scene *sc = [Scene node]; 
+    [scene addChild:worldLayer];
+    
+    Firstlayermenu *menuLayer = [Firstlayermenu node];
+    [scene addChild:menuLayer];
+    
+    [[CCDirector sharedDirector] replaceScene: [CCTransitionSlideInR transitionWithDuration:0.1f scene:scene]];    
+}
+
+
+- (void) dealloc
+{
+    [newBuildButton release];
+    newBuildButton = 0;
+    [generalBuildButton release];
+    generalBuildButton = 0;
+    [decorationBuildButton release];
+    decorationBuildButton = 0;
+    
+    [super dealloc];
+}
+
+@end

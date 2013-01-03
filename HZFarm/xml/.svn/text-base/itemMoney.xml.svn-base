@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Table tableName="itemMoney">
+    <SqlScript>CREATE TABLE IF NOT EXISTS itemMoney (sysName TEXT,disName TEXT,money INTEGER,diamond INTEGER)</SqlScript>
+    <SqlScript>INSERT INTO itemMoney (sysName,money,diamond) VALUES (&quot;钻石&quot;,&quot;0&quot;,&quot;1&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemMoney (sysName,money,diamond) VALUES (&quot;10000金币&quot;,&quot;10000&quot;,&quot;0&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemMoney (sysName) VALUES (&quot;20000金币&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemMoney (sysName) VALUES (&quot;50000金币&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemMoney (sysName) VALUES (&quot;50宝石&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemMoney (sysName) VALUES (&quot;100宝石&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemMoney (sysName) VALUES (&quot;200宝石&quot;)</SqlScript>
+    <SqlScript>INSERT INTO itemMoney (sysName) VALUES (&quot;500宝石&quot;)</SqlScript>
+</Table>

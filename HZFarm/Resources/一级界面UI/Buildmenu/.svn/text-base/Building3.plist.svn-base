@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>小花坛</key>
+	<string>小花坛.png</string>
+	<key>柳树</key>
+	<string>柳树.png</string>
+	<key>棕榈树</key>
+	<string>棕榈树.png</string>
+	<key>椰子树</key>
+	<string>椰子树.png</string>
+	<key>榕树</key>
+	<string>榕树.png</string>
+	<key>樱树</key>
+	<string>樱树.png</string>
+	<key>水井</key>
+	<string>水井.png</string>
+	<key>火棘丛</key>
+	<string>火棘丛.png</string>
+	<key>灵石</key>
+	<string>灵石.png</string>
+	<key>看守者小屋</key>
+	<string>看守者小屋.png</string>
+	<key>竹丛</key>
+	<string>竹丛.png</string>
+	<key>紫露花坛(大)</key>
+	<string>紫露花坛(大).png</string>
+	<key>紫露花坛(小)</key>
+	<string>紫露花坛(小).png</string>
+	<key>红叶李</key>
+	<string>红叶李.png</string>
+	<key>芭蕉花坛</key>
+	<string>芭蕉花坛.png</string>
+	<key>金花木</key>
+	<string>金花木.png</string>
+	<key>银叶树</key>
+	<string>银叶树.png</string>
+	<key>风车</key>
+	<string>风车.png</string>
+</dict>
+</plist>

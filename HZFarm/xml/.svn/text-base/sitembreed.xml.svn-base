@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Table tableName="sitembreed">
+    <SqlScript>CREATE TABLE IF NOT EXISTS sitembreed (sysName TEXT,breedtype TEXT,breedNum INTEGER)</SqlScript>
+    <SqlScript>INSERT INTO sitembreed (sysName,breedtype,breedNum) VALUES (&quot;一级鸡舍&quot;,&quot;鸡#野鸡&quot;,&quot;2&quot;)</SqlScript>
+    <SqlScript>INSERT INTO sitembreed (sysName,breedtype,breedNum) VALUES (&quot;二级鸡舍&quot;,&quot;鸡#野鸡&quot;,&quot;4&quot;)</SqlScript>
+    <SqlScript>INSERT INTO sitembreed (sysName,breedtype,breedNum) VALUES (&quot;三级鸡舍&quot;,&quot;鸡#野鸡&quot;,&quot;6&quot;)</SqlScript>
+    <SqlScript>INSERT INTO sitembreed (sysName,breedtype,breedNum) VALUES (&quot;四级鸡舍&quot;,&quot;鸡#野鸡&quot;,&quot;8&quot;)</SqlScript>
+    <SqlScript>INSERT INTO sitembreed (sysName,breedtype,breedNum) VALUES (&quot;五级鸡舍&quot;,&quot;鸡#野鸡&quot;,&quot;10&quot;)</SqlScript>
+</Table>

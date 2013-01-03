@@ -1,0 +1,353 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/ios/!svn/ver/42/HZFarmNew/HZFarm/Entity
+END
+DAState.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAState.m
+END
+DAItemProducts.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAItemProducts.m
+END
+DAProcessingBuildingEntity.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAProcessingBuildingEntity.h
+END
+DAGeneralItemEntity.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAGeneralItemEntity.h
+END
+DABreedingBuildingEntity.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DABreedingBuildingEntity.h
+END
+DABuildingEntity.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DABuildingEntity.h
+END
+DAMagicBuildingEntity.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAMagicBuildingEntity.h
+END
+DAProcessingBuildingEntity.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAProcessingBuildingEntity.m
+END
+DAGeneralItemEntity.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAGeneralItemEntity.m
+END
+DABreedingBuildingEntity.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DABreedingBuildingEntity.m
+END
+DABuildingEntity.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DABuildingEntity.m
+END
+DAMagicBuildingEntity.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAMagicBuildingEntity.m
+END
+DAShopDataEntity.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAShopDataEntity.h
+END
+DAHenHouseDataEntity.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAHenHouseDataEntity.h
+END
+DAShopDataEntity.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAShopDataEntity.m
+END
+DAMagicInHenHouse.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAMagicInHenHouse.h
+END
+DAHenHouseMapEntity.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAHenHouseMapEntity.h
+END
+DAHenHouseDataEntity.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAHenHouseDataEntity.m
+END
+DAItemTypeDefine.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAItemTypeDefine.h
+END
+DAMagicInHenHouse.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAMagicInHenHouse.m
+END
+DAItemInFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAItemInFactory.h
+END
+DAHenHouseMapEntity.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAHenHouseMapEntity.m
+END
+DAItemInFactory.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAItemInFactory.m
+END
+DAWorldMapEntity.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAWorldMapEntity.h
+END
+DAMagicForHenHouseEntity.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/ios/!svn/ver/19/HZFarmNew/HZFarm/Entity/DAMagicForHenHouseEntity.h
+END
+DAItemInHenHouse.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAItemInHenHouse.h
+END
+DAForProcessHouseEntity.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAForProcessHouseEntity.h
+END
+DAWorldMapEntity.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAWorldMapEntity.m
+END
+DAHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAHeader.h
+END
+DAMagicForHenHouseEntity.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/ios/!svn/ver/42/HZFarmNew/HZFarm/Entity/DAMagicForHenHouseEntity.m
+END
+DAItemInHenHouse.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAItemInHenHouse.m
+END
+DAPlayerEntity.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAPlayerEntity.h
+END
+DAWareHouseDataEntity.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAWareHouseDataEntity.h
+END
+DAItemPoultryEntity.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAItemPoultryEntity.h
+END
+DAForProcessHouseEntity.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAForProcessHouseEntity.m
+END
+DASpecialItemEntity.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DASpecialItemEntity.h
+END
+DAFactoryInHenHouse.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAFactoryInHenHouse.h
+END
+DAItemVehicle.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAItemVehicle.h
+END
+DAPlayerEntity.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAPlayerEntity.m
+END
+DAWareHouseDataEntity.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAWareHouseDataEntity.m
+END
+DAItemProp.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAItemProp.h
+END
+DAItemPoultryEntity.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAItemPoultryEntity.m
+END
+DASpecialItemEntity.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DASpecialItemEntity.m
+END
+DAFactoryInHenHouse.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAFactoryInHenHouse.m
+END
+DAItemVehicle.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAItemVehicle.m
+END
+DAItemProp.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAItemProp.m
+END
+DAItemEggs.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAItemEggs.h
+END
+DAForWareHouseEntity.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAForWareHouseEntity.h
+END
+DAItemInWareHouse.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAItemInWareHouse.h
+END
+DAItemEggs.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAItemEggs.m
+END
+DAForWareHouseEntity.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAForWareHouseEntity.m
+END
+DAProductItemInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAProductItemInfo.h
+END
+DAItemInWareHouse.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAItemInWareHouse.m
+END
+DAPFactoryDataEntity.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAPFactoryDataEntity.h
+END
+DAProductItemInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAProductItemInfo.m
+END
+DAState.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAState.h
+END
+DAItemProducts.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAItemProducts.h
+END
+DAPFactoryDataEntity.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/ios/!svn/ver/3/HZFarmNew/HZFarm/Entity/DAPFactoryDataEntity.m
+END
